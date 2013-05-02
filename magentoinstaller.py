@@ -7,7 +7,7 @@ import commands
 
 class AppWindow(Gtk.Window):
 
-  def __init__(self):
+	def __init__(self):
 		Gtk.Window.__init__(self, title="Instalador de Magento - Rafael Ortega Bueno")
 		self.set_size_request(400,200)
 		self.timeout_id = None
